@@ -8,32 +8,25 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\mrkarasu\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/adline/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mrkarasu\\source\\repos\\ConsoleAppJeuxSerpent\\The_goose_game\\Consolegoose_game\\Consolegoose_game\\Consolegoose_game.csproj",
+      "projectUniqueName": "/Users/adline/Cours/BACK_END/GIT_GITHUB/JEUX/The_goose_game/The_goose_game/Consolegoose_game/Consolegoose_game.csproj",
       "projectName": "Consolegoose_game",
-      "projectPath": "C:\\Users\\mrkarasu\\source\\repos\\ConsoleAppJeuxSerpent\\The_goose_game\\Consolegoose_game\\Consolegoose_game\\Consolegoose_game.csproj",
-      "packagesPath": "C:\\Users\\mrkarasu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mrkarasu\\source\\repos\\ConsoleAppJeuxSerpent\\The_goose_game\\Consolegoose_game\\Consolegoose_game\\obj\\",
+      "projectPath": "/Users/adline/Cours/BACK_END/GIT_GITHUB/JEUX/The_goose_game/The_goose_game/Consolegoose_game/Consolegoose_game.csproj",
+      "packagesPath": "/Users/adline/.nuget/packages/",
+      "outputPath": "/Users/adline/Cours/BACK_END/GIT_GITHUB/JEUX/The_goose_game/The_goose_game/Consolegoose_game/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\mrkarasu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/adline/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -67,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }

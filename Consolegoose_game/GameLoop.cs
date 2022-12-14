@@ -17,13 +17,27 @@ namespace Consolegoose_game
         //methode
         //lancement game(boucle game)
         public void StartGame()
-        {
+        {int turnCount = 1;
+            Console.WriteLine("Nous sommes au tour " + turnCount);
             while (!IsGameFinished)
             {
                 foreach(var player in Players)
                 {
-                    player.DiceDraw();
+                    
+                    if(turnCount == 5)
+                    {
+                        player.DiceDraw9();
+                        turnCount++;
+
+                    }
+                    else 
+                    {
+                        player.DiceDraw6();
+                        turnCount++;
+                    }
                     Console.ReadLine();
+                    
+                    Console.WriteLine("Nous sommes au tour " + turnCount);
                     if (player.Position == 50)
                     {
                         IsGameFinished = true;

@@ -13,8 +13,13 @@ namespace Consolegoose_game
 			return random.Next(1, 6);
 
         }
-		
-	}
+        public int ThrowTwo()
+        {
+            return random.Next(2, 9);
+
+        }
+
+    }
 
 }
 

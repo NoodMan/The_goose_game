@@ -18,10 +18,18 @@ namespace Consolegoose_game
             Name = name;
         }
 
-        public void DiceDraw()
+        public void DiceDraw6()
         {
             var dice = new Dice();
             var positioncase = dice.Throw();
+            Console.WriteLine("le joueur " + Name + " a fait " + positioncase);
+            Position += positioncase;
+            Console.WriteLine("le joueur " + Name + " est sur la case " + Position);
+        }
+        public void DiceDraw9()
+        {
+            var dice = new Dice();
+            var positioncase = dice.ThrowTwo();
             Console.WriteLine("le joueur " + Name + " a fait " + positioncase);
             Position += positioncase;
             Console.WriteLine("le joueur " + Name + " est sur la case " + Position);

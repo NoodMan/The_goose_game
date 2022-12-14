@@ -9,7 +9,9 @@ internal class Program
 
         Dice dice = new Dice();
         Console.WriteLine(dice.Throw());
-        
-        
+
+        Player player = new Player("guillaume");
+        player.DiceDraw();
     }
+
 }

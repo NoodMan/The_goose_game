@@ -11,6 +11,7 @@ namespace Consolegoose_game
 		public int Throw()
 		{
 			return random.Next(1, 6);
+
         }
 		
 	}

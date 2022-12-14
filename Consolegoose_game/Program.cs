@@ -12,6 +12,8 @@ internal class Program
 
         Player player = new Player("guillaume");
         player.DiceDraw();
-    }
 
+
+
+    }
 }

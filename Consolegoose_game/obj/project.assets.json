@@ -8,33 +8,26 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\mrkarasu\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Namejess\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mrkarasu\\source\\repos\\ConsoleAppJeuxSerpent\\The_goose_game\\Consolegoose_game\\Consolegoose_game\\Consolegoose_game.csproj",
+      "projectUniqueName": "C:\\CDA CCI\\Module C#\\The_goose_game\\Consolegoose_game\\Consolegoose_game.csproj",
       "projectName": "Consolegoose_game",
-      "projectPath": "C:\\Users\\mrkarasu\\source\\repos\\ConsoleAppJeuxSerpent\\The_goose_game\\Consolegoose_game\\Consolegoose_game\\Consolegoose_game.csproj",
-      "packagesPath": "C:\\Users\\mrkarasu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mrkarasu\\source\\repos\\ConsoleAppJeuxSerpent\\The_goose_game\\Consolegoose_game\\Consolegoose_game\\obj\\",
+      "projectPath": "C:\\CDA CCI\\Module C#\\The_goose_game\\Consolegoose_game\\Consolegoose_game.csproj",
+      "packagesPath": "C:\\Users\\Namejess\\.nuget\\packages\\",
+      "outputPath": "C:\\CDA CCI\\Module C#\\The_goose_game\\Consolegoose_game\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\mrkarasu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Namejess\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
       },
       "frameworks": {
         "net6.0": {
@@ -67,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

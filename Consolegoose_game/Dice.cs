@@ -1,25 +1,19 @@
-﻿using System;
-namespace Consolegoose_game
+﻿namespace Consolegoose_game;
+
+public class Dice
 {
-	public class Dice
-	{
-		//proprietes
-		private Random random = new Random();
+    //proprietes
+    private readonly Random random = new();
 
 
-		//methode
-		public int Throw()
-		{
-			return random.Next(1, 6);
-
-        }
-        public int ThrowTwo()
-        {
-            return random.Next(2, 9);
-
-        }
-
+    //methode
+    public int Throw()
+    {
+        return random.Next(1, 6);
     }
 
+    public int ThrowTwo()
+    {
+        return random.Next(2, 9);
+    }
 }
-

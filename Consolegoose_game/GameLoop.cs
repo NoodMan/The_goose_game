@@ -14,50 +14,79 @@ namespace Consolegoose_game
             Players = players;
             IsGameFinished = false;
         }
+
         //methode
         //lancement game(boucle game)
         public void StartGame()
-        {int turnCount = 1;
+        {   
+            int turnCount = 1;
+            
             Console.WriteLine("Nous sommes au tour " + turnCount);
             while (!IsGameFinished)
             {
                 foreach(var player in Players)
                 {
-                    
-                    if(turnCount == 5)
+
+
+                    if (turnCount == 5)
                     {
                         player.DiceDraw9();
                         turnCount++;
 
                     }
                     else 
-                    {
+                    { 
                         player.DiceDraw6();
                         turnCount++;
                     }
                     Console.ReadLine();
                     
                     Console.WriteLine("Nous sommes au tour " + turnCount);
+                    
                     if (player.Position == 50)
                     {
                         IsGameFinished = true;
                         Console.WriteLine("Finish!! Is Winner player " + player.Name + " 🎉.");
-
                     }
-        //les conditions
-                    if (player.Position > 50) player.Position = 25;
-                    if (player.Position == 37) player.Position = 12;
-                    if (player.Position == 14) player.Position = 7;
-                    if (player.Position == 46) player.Position = 33;
-                    if (player.Position == 20) player.Position = 35;
-                    if (player.Position == 2) player.Position = 17;
-                    if (player.Position == 31) player.Position = 43;
-                    if (player.Position == 49) player.Position = 1;
+                    
+
+
+
+                    player.PlayerPositionPiege();
+
 
 
                 }
-
             }
+        }
+
+        public static void Initialization()
+        {
+            var players = AskAllPlayerInformation();
+            var gameLoop = new GameLoop(players);
+            gameLoop.StartGame();
+        }
+        
+        public static List<Player> AskAllPlayerInformation()
+        {
+            var players = new List<Player>();
+            var playerCount = AskPlayerNumber();
+            for (int i = 0; i < playerCount; i++)
+            {
+                players.Add(AskOnePlayerInformation(i));
+            }
+            return players;
+        }
+        public static Player AskOnePlayerInformation(int numberPlayer)
+        {
+            Console.WriteLine("Entrer le nom du joueur");
+            var playername = Convert.ToString(Console.ReadLine());
+            return new Player(playername);
+        }
+        public static int AskPlayerNumber()
+        {
+            Console.WriteLine("Bienvenue dans le goose game!!!!\nCombien de joueur ete vous ?");
+            return Convert.ToInt32(Console.ReadLine());
         }
     }
 }
